@@ -9,7 +9,7 @@ url = "https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiv
 df = pd.read_csv(url)
 
 # Initialize the Dash app
-app = dash.Dash(__name__)\
+app = dash.Dash(__name__)
 server=app.server
 
 # App layout
